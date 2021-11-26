@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-principal{
+  width: 80%;
+  margin: auto;
+}
+header{
+  height: 100px;
+  background-color: rgb(225, 110, 226);
+  margin-top: 3%;
+}

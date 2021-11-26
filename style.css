@@ -6,6 +6,7 @@
 .container-principal{
   width: 80%;
   margin: auto;
+  height: 100%;
 }
 header{
   height: 100px;
@@ -16,5 +17,43 @@ header{
   height: 400px;
   background-color: rgb(221, 208, 110);
 }
-
-
+.second-container{
+  height: 40%;
+  background-color: rgb(0, 123, 255); 
+}
+.title-content{
+  height: 15%;
+  background-color: rgb(161, 201, 227);
+}
+.sx{
+  height: 75%;
+  width: 20%;
+  background-color: rgb(161, 201, 227);
+  float: left;
+}
+.center{
+  height: 75%;
+  width: 55%;
+  background-color: rgb(161, 201, 227);
+  float: left;
+  margin-left: 2.5%;
+}
+.dx{
+  height: 75%;
+  width: 20%;
+  background-color: rgb(161, 201, 227);
+  float: right;
+}
+.content{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+footer{
+  height: 50px;
+  background-color: rgb(125, 8, 255);
+}
+.second-container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
